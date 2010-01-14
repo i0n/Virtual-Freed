@@ -3,7 +3,6 @@
 # virtual_freed
 #
 # Created by i0n on 02/01/2010.
-# Copyright Ian Web Designs 2010. All rights reserved.
 #
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can

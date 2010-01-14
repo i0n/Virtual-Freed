@@ -2,16 +2,18 @@
 # virtual_freed
 #
 # Created by i0n on 02/01/2010.
-# Copyright 2010 Ian Web Designs. All rights reserved.
 
 class FreedController < NSWindowController
 
 	attr_accessor :message
 
 	def awakeFromNib
-#		Method for retreiving one file path from resources folder
-#		cued_sound = NSBundle.mainBundle.pathForResource('Electro', :ofType => 'mp3')
-		@sound_files = NSBundle.mainBundle.pathsForResourcesOfType( "mp3" , inDirectory:"")
+		virtual_freed = NSBundle.mainBundle.pathForResource('virtual_freed', :ofType => 'mp3')
+		@start_sound = NSSound.alloc.initWithContentsOfFile(virtual_freed, :byReference => false)
+		laters = NSBundle.mainBundle.pathForResource('laters', :ofType => 'mp3')
+		@stop_sound = NSSound.alloc.initWithContentsOfFile(laters, :byReference => false)
+		@start_sound.play
+		@sound_files = NSBundle.mainBundle.pathsForResourcesOfType( "mp3" , inDirectory:"app_sounds")
 		random_sound
 		@freed_active = false
 	end
@@ -40,14 +42,13 @@ class FreedController < NSWindowController
 		@count = nil
 		@timer = nil
 		@freed_active = false
+		@stop_sound.play
 		self.message.stringValue = "Freeds rampage of terror has been halted."
 	end
 		
 	def start_timer
 		if @timer == nil
 			@timer = NSTimer.scheduledTimerWithTimeInterval 1, target: self, selector: 'reset_timer:', userInfo: nil, repeats: true
-#			Although this 'rubyish' way of doing the above should work. It currently errors out...
-#			@timer = IntervalTimer.new(1, :target => self, :selector => 'reset_timer:')
 			@count = 60
 		end
 	end

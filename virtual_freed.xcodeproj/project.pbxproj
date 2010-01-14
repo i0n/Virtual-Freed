@@ -45,6 +45,7 @@
 			buildConfigurationList = 7F92C8A810F126F700FA4A74 /* Build configuration list for PBXAggregateTarget "VirtualFreedWithMacRubyEmbedded" */;
 			buildPhases = (
 				7F92C8A210F126E600FA4A74 /* ShellScript */,
+				7F97DA4E10FEED910063CAA4 /* CopyFiles */,
 			);
 			dependencies = (
 				7F92C8AA10F1270500FA4A74 /* PBXTargetDependency */,
@@ -62,9 +63,47 @@
 		7F3EE58810EFAFAA007D9007 /* virtual_freed_full_body.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE58710EFAFAA007D9007 /* virtual_freed_full_body.icns */; };
 		7F3EE59510EFB535007D9007 /* FreedController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE59410EFB535007D9007 /* FreedController.rb */; };
 		7F3EE5B910EFD6AE007D9007 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE5B810EFD6AE007D9007 /* background.png */; };
-		7F3EE72710F03AF7007D9007 /* electro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE72410F03AF7007D9007 /* electro.mp3 */; };
-		7F3EE72810F03AF7007D9007 /* find my bible.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE72510F03AF7007D9007 /* find my bible.mp3 */; };
-		7F3EE72910F03AF7007D9007 /* godzilla.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE72610F03AF7007D9007 /* godzilla.mp3 */; };
+		7F97DA9010FEF4830063CAA4 /* virtual_freed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F97DA3010FEEAA60063CAA4 /* virtual_freed.mp3 */; };
+		7F97DA9110FEF4970063CAA4 /* adios.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16281D10FEE35C00B6D540 /* adios.mp3 */; };
+		7F97DA9210FEF4970063CAA4 /* aeeeeeer.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16281E10FEE35C00B6D540 /* aeeeeeer.mp3 */; };
+		7F97DA9310FEF4970063CAA4 /* arrrh 1.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16281F10FEE35C00B6D540 /* arrrh 1.mp3 */; };
+		7F97DA9410FEF4970063CAA4 /* arrrhh arrhhh.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282010FEE35C00B6D540 /* arrrhh arrhhh.mp3 */; };
+		7F97DA9510FEF4970063CAA4 /* ay you shoulda.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282110FEE35C00B6D540 /* ay you shoulda.mp3 */; };
+		7F97DA9610FEF4970063CAA4 /* beast noise 1.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282210FEE35C00B6D540 /* beast noise 1.mp3 */; };
+		7F97DA9710FEF4970063CAA4 /* beast noise 2.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282310FEE35C00B6D540 /* beast noise 2.mp3 */; };
+		7F97DA9810FEF4970063CAA4 /* beast noise 3.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282410FEE35C00B6D540 /* beast noise 3.mp3 */; };
+		7F97DA9910FEF4970063CAA4 /* bothered.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282510FEE35C00B6D540 /* bothered.mp3 */; };
+		7F97DA9A10FEF4970063CAA4 /* Brad Friedel.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282610FEE35C00B6D540 /* Brad Friedel.mp3 */; };
+		7F97DA9B10FEF4970063CAA4 /* cool.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282710FEE35C00B6D540 /* cool.mp3 */; };
+		7F97DA9C10FEF4970063CAA4 /* dizee rascal.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282810FEE35C00B6D540 /* dizee rascal.mp3 */; };
+		7F97DA9D10FEF4970063CAA4 /* ello geez 1.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282910FEE35C00B6D540 /* ello geez 1.mp3 */; };
+		7F97DA9E10FEF4970063CAA4 /* ello geez 2.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282A10FEE35C00B6D540 /* ello geez 2.mp3 */; };
+		7F97DA9F10FEF4970063CAA4 /* five kids to feed.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282B10FEE35C00B6D540 /* five kids to feed.mp3 */; };
+		7F97DAA010FEF4970063CAA4 /* gutted gutted.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282C10FEE35C00B6D540 /* gutted gutted.mp3 */; };
+		7F97DAA110FEF4970063CAA4 /* gutted.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282D10FEE35C00B6D540 /* gutted.mp3 */; };
+		7F97DAA210FEF4970063CAA4 /* ich habe.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282E10FEE35C00B6D540 /* ich habe.mp3 */; };
+		7F97DAA310FEF4970063CAA4 /* im a cop you idiot.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16282F10FEE35C00B6D540 /* im a cop you idiot.mp3 */; };
+		7F97DAA410FEF4970063CAA4 /* ja.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283010FEE35C00B6D540 /* ja.mp3 */; };
+		7F97DAA510FEF4970063CAA4 /* jermaine.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283110FEE35C00B6D540 /* jermaine.mp3 */; };
+		7F97DAA610FEF4970063CAA4 /* laugh 1 1.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283310FEE35C00B6D540 /* laugh 1 1.mp3 */; };
+		7F97DAA710FEF4970063CAA4 /* laugh 2.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283410FEE35C00B6D540 /* laugh 2.mp3 */; };
+		7F97DAA810FEF4970063CAA4 /* laugh 3.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283510FEE35C00B6D540 /* laugh 3.mp3 */; };
+		7F97DAA910FEF4970063CAA4 /* missions geez.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283610FEE35C00B6D540 /* missions geez.mp3 */; };
+		7F97DAAA10FEF4970063CAA4 /* ooooow.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283710FEE35C00B6D540 /* ooooow.mp3 */; };
+		7F97DAAB10FEF4970063CAA4 /* orrww.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283810FEE35C00B6D540 /* orrww.mp3 */; };
+		7F97DAAC10FEF4970063CAA4 /* see you at the party victor.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283910FEE35C00B6D540 /* see you at the party victor.mp3 */; };
+		7F97DAAD10FEF4970063CAA4 /* shoulda remembered the rocks.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283A10FEE35C00B6D540 /* shoulda remembered the rocks.mp3 */; };
+		7F97DAAE10FEF4970063CAA4 /* shut up 1.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283B10FEE35C00B6D540 /* shut up 1.mp3 */; };
+		7F97DAAF10FEF4970063CAA4 /* shut up 2.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283C10FEE35C00B6D540 /* shut up 2.mp3 */; };
+		7F97DAB010FEF4970063CAA4 /* shut up 3.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283D10FEE35C00B6D540 /* shut up 3.mp3 */; };
+		7F97DAB110FEF4970063CAA4 /* shut up 4.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283E10FEE35C00B6D540 /* shut up 4.mp3 */; };
+		7F97DAB210FEF4970063CAA4 /* throaty voice 1.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16283F10FEE35C00B6D540 /* throaty voice 1.mp3 */; };
+		7F97DAB310FEF4970063CAA4 /* throaty voice 2.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16284010FEE35C00B6D540 /* throaty voice 2.mp3 */; };
+		7F97DAB410FEF4970063CAA4 /* throaty voice 3.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16284110FEE35C00B6D540 /* throaty voice 3.mp3 */; };
+		7F97DAB510FEF4970063CAA4 /* william im your uncle argyle.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16284210FEE35C00B6D540 /* william im your uncle argyle.mp3 */; };
+		7F97DAB610FEF4970063CAA4 /* yeeer.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16284310FEE35C00B6D540 /* yeeer.mp3 */; };
+		7F97DAB710FEF4970063CAA4 /* you mug.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16284410FEE35C00B6D540 /* you mug.mp3 */; };
+		7F97DAB810FEF4CB0063CAA4 /* laters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F16283210FEE35C00B6D540 /* laters.mp3 */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -75,7 +114,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8D1107260486CEB800E47090 /* virtual_freed */;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
 			remoteInfo = virtual_freed;
 		};
 /* End PBXContainerItemProxy section */
@@ -87,6 +126,54 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F97DA4E10FEED910063CAA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = virtual_freed.app/Contents/Resources/app_sounds;
+			dstSubfolderSpec = 7;
+			files = (
+				7F97DA9110FEF4970063CAA4 /* adios.mp3 in CopyFiles */,
+				7F97DA9210FEF4970063CAA4 /* aeeeeeer.mp3 in CopyFiles */,
+				7F97DA9310FEF4970063CAA4 /* arrrh 1.mp3 in CopyFiles */,
+				7F97DA9410FEF4970063CAA4 /* arrrhh arrhhh.mp3 in CopyFiles */,
+				7F97DA9510FEF4970063CAA4 /* ay you shoulda.mp3 in CopyFiles */,
+				7F97DA9610FEF4970063CAA4 /* beast noise 1.mp3 in CopyFiles */,
+				7F97DA9710FEF4970063CAA4 /* beast noise 2.mp3 in CopyFiles */,
+				7F97DA9810FEF4970063CAA4 /* beast noise 3.mp3 in CopyFiles */,
+				7F97DA9910FEF4970063CAA4 /* bothered.mp3 in CopyFiles */,
+				7F97DA9A10FEF4970063CAA4 /* Brad Friedel.mp3 in CopyFiles */,
+				7F97DA9B10FEF4970063CAA4 /* cool.mp3 in CopyFiles */,
+				7F97DA9C10FEF4970063CAA4 /* dizee rascal.mp3 in CopyFiles */,
+				7F97DA9D10FEF4970063CAA4 /* ello geez 1.mp3 in CopyFiles */,
+				7F97DA9E10FEF4970063CAA4 /* ello geez 2.mp3 in CopyFiles */,
+				7F97DA9F10FEF4970063CAA4 /* five kids to feed.mp3 in CopyFiles */,
+				7F97DAA010FEF4970063CAA4 /* gutted gutted.mp3 in CopyFiles */,
+				7F97DAA110FEF4970063CAA4 /* gutted.mp3 in CopyFiles */,
+				7F97DAA210FEF4970063CAA4 /* ich habe.mp3 in CopyFiles */,
+				7F97DAA310FEF4970063CAA4 /* im a cop you idiot.mp3 in CopyFiles */,
+				7F97DAA410FEF4970063CAA4 /* ja.mp3 in CopyFiles */,
+				7F97DAA510FEF4970063CAA4 /* jermaine.mp3 in CopyFiles */,
+				7F97DAA610FEF4970063CAA4 /* laugh 1 1.mp3 in CopyFiles */,
+				7F97DAA710FEF4970063CAA4 /* laugh 2.mp3 in CopyFiles */,
+				7F97DAA810FEF4970063CAA4 /* laugh 3.mp3 in CopyFiles */,
+				7F97DAA910FEF4970063CAA4 /* missions geez.mp3 in CopyFiles */,
+				7F97DAAA10FEF4970063CAA4 /* ooooow.mp3 in CopyFiles */,
+				7F97DAAB10FEF4970063CAA4 /* orrww.mp3 in CopyFiles */,
+				7F97DAAC10FEF4970063CAA4 /* see you at the party victor.mp3 in CopyFiles */,
+				7F97DAAD10FEF4970063CAA4 /* shoulda remembered the rocks.mp3 in CopyFiles */,
+				7F97DAAE10FEF4970063CAA4 /* shut up 1.mp3 in CopyFiles */,
+				7F97DAAF10FEF4970063CAA4 /* shut up 2.mp3 in CopyFiles */,
+				7F97DAB010FEF4970063CAA4 /* shut up 3.mp3 in CopyFiles */,
+				7F97DAB110FEF4970063CAA4 /* shut up 4.mp3 in CopyFiles */,
+				7F97DAB210FEF4970063CAA4 /* throaty voice 1.mp3 in CopyFiles */,
+				7F97DAB310FEF4970063CAA4 /* throaty voice 2.mp3 in CopyFiles */,
+				7F97DAB410FEF4970063CAA4 /* throaty voice 3.mp3 in CopyFiles */,
+				7F97DAB510FEF4970063CAA4 /* william im your uncle argyle.mp3 in CopyFiles */,
+				7F97DAB610FEF4970063CAA4 /* yeeer.mp3 in CopyFiles */,
+				7F97DAB710FEF4970063CAA4 /* you mug.mp3 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,15 +191,53 @@
 		2BFA9DA610CDF852007972A1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
+		7F16281D10FEE35C00B6D540 /* adios.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = adios.mp3; sourceTree = "<group>"; };
+		7F16281E10FEE35C00B6D540 /* aeeeeeer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aeeeeeer.mp3; sourceTree = "<group>"; };
+		7F16281F10FEE35C00B6D540 /* arrrh 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "arrrh 1.mp3"; sourceTree = "<group>"; };
+		7F16282010FEE35C00B6D540 /* arrrhh arrhhh.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "arrrhh arrhhh.mp3"; sourceTree = "<group>"; };
+		7F16282110FEE35C00B6D540 /* ay you shoulda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ay you shoulda.mp3"; sourceTree = "<group>"; };
+		7F16282210FEE35C00B6D540 /* beast noise 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beast noise 1.mp3"; sourceTree = "<group>"; };
+		7F16282310FEE35C00B6D540 /* beast noise 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beast noise 2.mp3"; sourceTree = "<group>"; };
+		7F16282410FEE35C00B6D540 /* beast noise 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beast noise 3.mp3"; sourceTree = "<group>"; };
+		7F16282510FEE35C00B6D540 /* bothered.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bothered.mp3; sourceTree = "<group>"; };
+		7F16282610FEE35C00B6D540 /* Brad Friedel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brad Friedel.mp3"; sourceTree = "<group>"; };
+		7F16282710FEE35C00B6D540 /* cool.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cool.mp3; sourceTree = "<group>"; };
+		7F16282810FEE35C00B6D540 /* dizee rascal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dizee rascal.mp3"; sourceTree = "<group>"; };
+		7F16282910FEE35C00B6D540 /* ello geez 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ello geez 1.mp3"; sourceTree = "<group>"; };
+		7F16282A10FEE35C00B6D540 /* ello geez 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ello geez 2.mp3"; sourceTree = "<group>"; };
+		7F16282B10FEE35C00B6D540 /* five kids to feed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "five kids to feed.mp3"; sourceTree = "<group>"; };
+		7F16282C10FEE35C00B6D540 /* gutted gutted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gutted gutted.mp3"; sourceTree = "<group>"; };
+		7F16282D10FEE35C00B6D540 /* gutted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gutted.mp3; sourceTree = "<group>"; };
+		7F16282E10FEE35C00B6D540 /* ich habe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ich habe.mp3"; sourceTree = "<group>"; };
+		7F16282F10FEE35C00B6D540 /* im a cop you idiot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "im a cop you idiot.mp3"; sourceTree = "<group>"; };
+		7F16283010FEE35C00B6D540 /* ja.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ja.mp3; sourceTree = "<group>"; };
+		7F16283110FEE35C00B6D540 /* jermaine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jermaine.mp3; sourceTree = "<group>"; };
+		7F16283210FEE35C00B6D540 /* laters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laters.mp3; sourceTree = "<group>"; };
+		7F16283310FEE35C00B6D540 /* laugh 1 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh 1 1.mp3"; sourceTree = "<group>"; };
+		7F16283410FEE35C00B6D540 /* laugh 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh 2.mp3"; sourceTree = "<group>"; };
+		7F16283510FEE35C00B6D540 /* laugh 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "laugh 3.mp3"; sourceTree = "<group>"; };
+		7F16283610FEE35C00B6D540 /* missions geez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "missions geez.mp3"; sourceTree = "<group>"; };
+		7F16283710FEE35C00B6D540 /* ooooow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ooooow.mp3; sourceTree = "<group>"; };
+		7F16283810FEE35C00B6D540 /* orrww.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orrww.mp3; sourceTree = "<group>"; };
+		7F16283910FEE35C00B6D540 /* see you at the party victor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "see you at the party victor.mp3"; sourceTree = "<group>"; };
+		7F16283A10FEE35C00B6D540 /* shoulda remembered the rocks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shoulda remembered the rocks.mp3"; sourceTree = "<group>"; };
+		7F16283B10FEE35C00B6D540 /* shut up 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shut up 1.mp3"; sourceTree = "<group>"; };
+		7F16283C10FEE35C00B6D540 /* shut up 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shut up 2.mp3"; sourceTree = "<group>"; };
+		7F16283D10FEE35C00B6D540 /* shut up 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shut up 3.mp3"; sourceTree = "<group>"; };
+		7F16283E10FEE35C00B6D540 /* shut up 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shut up 4.mp3"; sourceTree = "<group>"; };
+		7F16283F10FEE35C00B6D540 /* throaty voice 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "throaty voice 1.mp3"; sourceTree = "<group>"; };
+		7F16284010FEE35C00B6D540 /* throaty voice 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "throaty voice 2.mp3"; sourceTree = "<group>"; };
+		7F16284110FEE35C00B6D540 /* throaty voice 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "throaty voice 3.mp3"; sourceTree = "<group>"; };
+		7F16284210FEE35C00B6D540 /* william im your uncle argyle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "william im your uncle argyle.mp3"; sourceTree = "<group>"; };
+		7F16284310FEE35C00B6D540 /* yeeer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yeeer.mp3; sourceTree = "<group>"; };
+		7F16284410FEE35C00B6D540 /* you mug.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you mug.mp3"; sourceTree = "<group>"; };
 		7F3EE58510EFAF04007D9007 /* virtual_freed.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = virtual_freed.icns; sourceTree = "<group>"; };
 		7F3EE58710EFAFAA007D9007 /* virtual_freed_full_body.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = virtual_freed_full_body.icns; sourceTree = "<group>"; };
 		7F3EE59410EFB535007D9007 /* FreedController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = FreedController.rb; sourceTree = "<group>"; };
 		7F3EE5B810EFD6AE007D9007 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		7F3EE72410F03AF7007D9007 /* electro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = electro.mp3; sourceTree = "<group>"; };
-		7F3EE72510F03AF7007D9007 /* find my bible.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "find my bible.mp3"; sourceTree = "<group>"; };
-		7F3EE72610F03AF7007D9007 /* godzilla.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = godzilla.mp3; sourceTree = "<group>"; };
+		7F97DA3010FEEAA60063CAA4 /* virtual_freed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = virtual_freed.mp3; sourceTree = "<group>"; };
+		7F97DA3410FEEB180063CAA4 /* virtual_freed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virtual_freed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* virtual_freed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = virtual_freed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +292,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* virtual_freed.app */,
+				7F97DA3410FEEB180063CAA4 /* virtual_freed.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +322,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7F97DA3010FEEAA60063CAA4 /* virtual_freed.mp3 */,
+				7F16283210FEE35C00B6D540 /* laters.mp3 */,
 				7F3EE5BE10EFD9A7007D9007 /* sounds */,
 				7F3EE5B810EFD6AE007D9007 /* background.png */,
 				7F3EE58710EFAFAA007D9007 /* virtual_freed_full_body.icns */,
@@ -220,9 +347,45 @@
 		7F3EE5BE10EFD9A7007D9007 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
-				7F3EE72410F03AF7007D9007 /* electro.mp3 */,
-				7F3EE72510F03AF7007D9007 /* find my bible.mp3 */,
-				7F3EE72610F03AF7007D9007 /* godzilla.mp3 */,
+				7F16281D10FEE35C00B6D540 /* adios.mp3 */,
+				7F16281E10FEE35C00B6D540 /* aeeeeeer.mp3 */,
+				7F16281F10FEE35C00B6D540 /* arrrh 1.mp3 */,
+				7F16282010FEE35C00B6D540 /* arrrhh arrhhh.mp3 */,
+				7F16282110FEE35C00B6D540 /* ay you shoulda.mp3 */,
+				7F16282210FEE35C00B6D540 /* beast noise 1.mp3 */,
+				7F16282310FEE35C00B6D540 /* beast noise 2.mp3 */,
+				7F16282410FEE35C00B6D540 /* beast noise 3.mp3 */,
+				7F16282510FEE35C00B6D540 /* bothered.mp3 */,
+				7F16282610FEE35C00B6D540 /* Brad Friedel.mp3 */,
+				7F16282710FEE35C00B6D540 /* cool.mp3 */,
+				7F16282810FEE35C00B6D540 /* dizee rascal.mp3 */,
+				7F16282910FEE35C00B6D540 /* ello geez 1.mp3 */,
+				7F16282A10FEE35C00B6D540 /* ello geez 2.mp3 */,
+				7F16282B10FEE35C00B6D540 /* five kids to feed.mp3 */,
+				7F16282C10FEE35C00B6D540 /* gutted gutted.mp3 */,
+				7F16282D10FEE35C00B6D540 /* gutted.mp3 */,
+				7F16282E10FEE35C00B6D540 /* ich habe.mp3 */,
+				7F16282F10FEE35C00B6D540 /* im a cop you idiot.mp3 */,
+				7F16283010FEE35C00B6D540 /* ja.mp3 */,
+				7F16283110FEE35C00B6D540 /* jermaine.mp3 */,
+				7F16283310FEE35C00B6D540 /* laugh 1 1.mp3 */,
+				7F16283410FEE35C00B6D540 /* laugh 2.mp3 */,
+				7F16283510FEE35C00B6D540 /* laugh 3.mp3 */,
+				7F16283610FEE35C00B6D540 /* missions geez.mp3 */,
+				7F16283710FEE35C00B6D540 /* ooooow.mp3 */,
+				7F16283810FEE35C00B6D540 /* orrww.mp3 */,
+				7F16283910FEE35C00B6D540 /* see you at the party victor.mp3 */,
+				7F16283A10FEE35C00B6D540 /* shoulda remembered the rocks.mp3 */,
+				7F16283B10FEE35C00B6D540 /* shut up 1.mp3 */,
+				7F16283C10FEE35C00B6D540 /* shut up 2.mp3 */,
+				7F16283D10FEE35C00B6D540 /* shut up 3.mp3 */,
+				7F16283E10FEE35C00B6D540 /* shut up 4.mp3 */,
+				7F16283F10FEE35C00B6D540 /* throaty voice 1.mp3 */,
+				7F16284010FEE35C00B6D540 /* throaty voice 2.mp3 */,
+				7F16284110FEE35C00B6D540 /* throaty voice 3.mp3 */,
+				7F16284210FEE35C00B6D540 /* william im your uncle argyle.mp3 */,
+				7F16284310FEE35C00B6D540 /* yeeer.mp3 */,
+				7F16284410FEE35C00B6D540 /* you mug.mp3 */,
 			);
 			name = sounds;
 			sourceTree = "<group>";
@@ -246,7 +409,7 @@
 			name = virtual_freed;
 			productInstallPath = "$(HOME)/Applications";
 			productName = virtual_freed;
-			productReference = 8D1107320486CEB800E47090 /* virtual_freed.app */;
+			productReference = 7F97DA3410FEEB180063CAA4 /* virtual_freed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -282,9 +445,8 @@
 				7F3EE58810EFAFAA007D9007 /* virtual_freed_full_body.icns in Resources */,
 				7F3EE59510EFB535007D9007 /* FreedController.rb in Resources */,
 				7F3EE5B910EFD6AE007D9007 /* background.png in Resources */,
-				7F3EE72710F03AF7007D9007 /* electro.mp3 in Resources */,
-				7F3EE72810F03AF7007D9007 /* find my bible.mp3 in Resources */,
-				7F3EE72910F03AF7007D9007 /* godzilla.mp3 in Resources */,
+				7F97DAB810FEF4CB0063CAA4 /* laters.mp3 in Resources */,
+				7F97DA9010FEF4830063CAA4 /* virtual_freed.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
