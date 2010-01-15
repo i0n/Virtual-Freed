@@ -44,11 +44,12 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 7F92C8A810F126F700FA4A74 /* Build configuration list for PBXAggregateTarget "VirtualFreedWithMacRubyEmbedded" */;
 			buildPhases = (
-				7F92C8A210F126E600FA4A74 /* ShellScript */,
 				7F97DA4E10FEED910063CAA4 /* CopyFiles */,
 			);
 			dependencies = (
 				7F92C8AA10F1270500FA4A74 /* PBXTargetDependency */,
+				7F98BE601100E7E100C538AB /* PBXTargetDependency */,
+				7F98BE621100E7E400C538AB /* PBXTargetDependency */,
 			);
 			name = VirtualFreedWithMacRubyEmbedded;
 			productName = VirtualFreedWithMacRubyEmbedded;
@@ -57,11 +58,9 @@
 
 /* Begin PBXBuildFile section */
 		2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA9DA510CDF852007972A1 /* MainMenu.xib */; };
-		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
 		7F3EE58610EFAF04007D9007 /* virtual_freed.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE58510EFAF04007D9007 /* virtual_freed.icns */; };
 		7F3EE58810EFAFAA007D9007 /* virtual_freed_full_body.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE58710EFAFAA007D9007 /* virtual_freed_full_body.icns */; };
-		7F3EE59510EFB535007D9007 /* FreedController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE59410EFB535007D9007 /* FreedController.rb */; };
 		7F3EE5B910EFD6AE007D9007 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE5B810EFD6AE007D9007 /* background.png */; };
 		7F97DA9010FEF4830063CAA4 /* virtual_freed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F97DA3010FEEAA60063CAA4 /* virtual_freed.mp3 */; };
 		7F97DA9110FEF4970063CAA4 /* adios.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16281D10FEE35C00B6D540 /* adios.mp3 */; };
@@ -104,6 +103,8 @@
 		7F97DAB610FEF4970063CAA4 /* yeeer.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16284310FEE35C00B6D540 /* yeeer.mp3 */; };
 		7F97DAB710FEF4970063CAA4 /* you mug.mp3 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F16284410FEE35C00B6D540 /* you mug.mp3 */; };
 		7F97DAB810FEF4CB0063CAA4 /* laters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7F16283210FEE35C00B6D540 /* laters.mp3 */; };
+		7F98BE5B1100E75C00C538AB /* FreedController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EE59410EFB535007D9007 /* FreedController.rb */; };
+		7F98BE5C1100E76000C538AB /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -116,6 +117,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8D1107260486CEB800E47090;
 			remoteInfo = virtual_freed;
+		};
+		7F98BE5F1100E7E100C538AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1A51A110A4FF5D0046A98A /* Compile */;
+			remoteInfo = Compile;
+		};
+		7F98BE611100E7E400C538AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1A51A510A4FF640046A98A /* Embed */;
+			remoteInfo = Embed;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -441,12 +456,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F98BE5C1100E76000C538AB /* rb_main.rb in Resources */,
+				7F98BE5B1100E75C00C538AB /* FreedController.rb in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
-				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				2BFA9DA710CDF852007972A1 /* MainMenu.xib in Resources */,
 				7F3EE58610EFAF04007D9007 /* virtual_freed.icns in Resources */,
 				7F3EE58810EFAFAA007D9007 /* virtual_freed_full_body.icns in Resources */,
-				7F3EE59510EFB535007D9007 /* FreedController.rb in Resources */,
 				7F3EE5B910EFD6AE007D9007 /* background.png in Resources */,
 				7F97DAB810FEF4CB0063CAA4 /* laters.mp3 in Resources */,
 				7F97DA9010FEF4830063CAA4 /* virtual_freed.mp3 in Resources */,
@@ -493,20 +508,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# The macruby_deploy command-line tool with the --embed argument will make sure the MacRuby framework will be embedded in your .app. Default options will be used. Pass the -h option to get more information.\nPATH=\"$PATH:/usr/local/bin\" macruby_deploy --embed \"$TARGET_BUILD_DIR/$PROJECT_NAME.app\"";
-		};
-		7F92C8A210F126E600FA4A74 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# The macruby_deploy command-line tool with the --embed argument will make sure the MacRuby framework will be embedded in your .app. Default options will be used. Pass the -h option to get more information.\nPATH=\"$PATH:/usr/local/bin\" macruby_deploy --embed \"$TARGET_BUILD_DIR/$PROJECT_NAME.app\"";
+			shellScript = "# The macruby_deploy command-line tool with the --embed argument will make sure the MacRuby framework will be embedded in your .app. Default options will be used. Pass the -h option to get more information.\nPATH=\"$PATH:/usr/local/bin\" \nmacruby_deploy --embed --no-stdlib \"$TARGET_BUILD_DIR/$PROJECT_NAME.app\"\n\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -526,6 +528,16 @@
 			isa = PBXTargetDependency;
 			target = 8D1107260486CEB800E47090 /* Virtual Freed */;
 			targetProxy = 7F92C8A910F1270500FA4A74 /* PBXContainerItemProxy */;
+		};
+		7F98BE601100E7E100C538AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1A51A110A4FF5D0046A98A /* Compile */;
+			targetProxy = 7F98BE5F1100E7E100C538AB /* PBXContainerItemProxy */;
+		};
+		7F98BE621100E7E400C538AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1A51A510A4FF640046A98A /* Embed */;
+			targetProxy = 7F98BE611100E7E400C538AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
