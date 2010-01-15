@@ -39,11 +39,12 @@ class FreedController < NSWindowController
 	end
 	
 	def stop_freed(sender)
+		@sound.stop
 		@count = nil
 		@timer = nil
 		@freed_active = false
 		@stop_sound.play
-		self.message.stringValue = "Freeds rampage of terror has been halted."
+		self.message.stringValue = "Freed's rampage of terror has been halted."
 	end
 		
 	def start_timer
