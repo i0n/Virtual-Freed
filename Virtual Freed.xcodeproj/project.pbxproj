@@ -48,8 +48,7 @@
 			);
 			dependencies = (
 				7F92C8AA10F1270500FA4A74 /* PBXTargetDependency */,
-				7F98BE601100E7E100C538AB /* PBXTargetDependency */,
-				7F98BE621100E7E400C538AB /* PBXTargetDependency */,
+				7FCC5FA411025623008E3FF3 /* PBXTargetDependency */,
 			);
 			name = VirtualFreedWithMacRubyEmbedded;
 			productName = VirtualFreedWithMacRubyEmbedded;
@@ -118,14 +117,7 @@
 			remoteGlobalIDString = 8D1107260486CEB800E47090;
 			remoteInfo = virtual_freed;
 		};
-		7F98BE5F1100E7E100C538AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4D1A51A110A4FF5D0046A98A /* Compile */;
-			remoteInfo = Compile;
-		};
-		7F98BE611100E7E400C538AB /* PBXContainerItemProxy */ = {
+		7FCC5FA311025623008E3FF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
@@ -443,9 +435,9 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Virtual Freed */,
-				172754BD107597F200D0347B /* Unit Tests */,
-				4D1A51A110A4FF5D0046A98A /* Compile */,
 				4D1A51A510A4FF640046A98A /* Embed */,
+				4D1A51A110A4FF5D0046A98A /* Compile */,
+				172754BD107597F200D0347B /* Unit Tests */,
 				7F92C8A310F126E600FA4A74 /* VirtualFreedWithMacRubyEmbedded */,
 			);
 		};
@@ -529,15 +521,10 @@
 			target = 8D1107260486CEB800E47090 /* Virtual Freed */;
 			targetProxy = 7F92C8A910F1270500FA4A74 /* PBXContainerItemProxy */;
 		};
-		7F98BE601100E7E100C538AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4D1A51A110A4FF5D0046A98A /* Compile */;
-			targetProxy = 7F98BE5F1100E7E100C538AB /* PBXContainerItemProxy */;
-		};
-		7F98BE621100E7E400C538AB /* PBXTargetDependency */ = {
+		7FCC5FA411025623008E3FF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4D1A51A510A4FF640046A98A /* Embed */;
-			targetProxy = 7F98BE611100E7E400C538AB /* PBXContainerItemProxy */;
+			targetProxy = 7FCC5FA311025623008E3FF3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
